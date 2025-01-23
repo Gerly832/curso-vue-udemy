@@ -1,10 +1,10 @@
-interface Hero {
+export interface Hero {
     id:number;
     name:string;
     owner: Owner;
 }
 
-type Owner = 'DC' | 'Marvel';
+export type Owner = 'DC' | 'Marvel';
 
 
 
